@@ -6,7 +6,7 @@ export const cardComponents = (product) => {
       rating: { rate }
     } = product;
     return `
-  <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700">
   <a href="#">
       <img class="p-8 rounded-t-lg h-[200px] w-auto object-cover" src="${
         image || "../assets/not available image.jpg"
